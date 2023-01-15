@@ -5,4 +5,4 @@
 Because.
 
 # More Info
-To understand the language check out the [language specification](./language.md#language-specs)!
+To understand the language check out the [language specification](./language.md#language-specs)!"# Badlang" 
