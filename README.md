@@ -1,8 +1,4 @@
 # About
-[Badlang] is a programming language that is.
+This repo contains the Badlang language standard.
 
-# Why?
-Because.
-
-# More Info
-To understand the language check out the [language specification](./language.md#language-specs)!"# Badlang" 
+To understand the language check out the [language specification](./language.md#language-specs)! 
