@@ -254,15 +254,6 @@ Returns from a script or a label.
 `scope` is the [Scope](#scope) to return to.
 </details>
 
-## `run <instructions> [args]`
-<details><summary></summary>
-
-Evaluates `instructions` with `args`.
-
-`instructions` is a json style list.  
-`args` is passed into the entrypoint.
-</details>
-
 ## Scope
 <details><summary></summary>
 
@@ -403,6 +394,6 @@ So this is what the errors mean:
 	Missing label name name.
 
 The `xxx` is the line number starting from `0`.  
-`script` is the script location in `behaviors.json` addressed by slashes (`/`) and surrounded in quotes (`''`).
+`script` is the script location.
 
 There is no error for a missing variable because referencing one will cause it to be created and set to "`0`".
