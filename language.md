@@ -118,46 +118,6 @@ when expression is a number and not `0` or `NaN`, `=` is evaluated
 when expression is not a number error `E20` occurs.
 </details>
 
-## `inclusion <lib_name> <=>`
-<details><summary></summary>
-
-Includes a "library".
-
-[`=`](#the-equals-operator) is a json object full of lists.  
-These lists contain instructions.
-
-`lib_name` is a name given to the "library".
-
-To access the commands in the library use `lib.command` where lib is the `lib_name`  
-and command is the json key of the instruction you want to run.
-</details>
-
-## `jset <location> [file] <=>`
-<details><summary></summary>
-
-Sets a value in `file`.
-
-`location` is where to set in `file`
-addressed by slashes (`/`) from the root of the file  
-or alternatively from the current location if it begins with "`./`".
-
-[`=`](#the-equals-operator) is what to set this value to.
-
-`file` is a path to a valid json file and defaults to the current file.
-</details>
-
-## `jval <location> [file]`
-<details><summary></summary>
-
-Returns the value found within `file`.
-
-`location` is where to look in `file`
-addressed by slashes (`/`) from the root of the file  
-or alternatively from the current location if it begins with "`./`"
-
-`file` is a path to a valid json file and defaults to the current file.
-</details>
-
 ## Labels (`:`)
 <details><summary></summary>
 
